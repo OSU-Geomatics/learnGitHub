@@ -219,7 +219,9 @@ for iDim = 1:N
 end
 XgVector = XgVector(:);
 end
-
+function doesnothing = bananas(dogs)
+    doesnothing = nan;
+end
 function Xind = calcInds(Xfilt,Xg)
 % The Index values for each X points are calculated for the corresponding
 % grid vectors along each dimension.
